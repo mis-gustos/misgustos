@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Contacto | Mis Gustos — Repostería artesanal">
+<title>Contacto | Mis Gustos</title>
+<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+<div class="topbar"><div class="container"><span>Repostería artesanal</span><span>Pequeños gustos, grandes momentos.</span></div></div>
+
+<header>
+  <div class="container nav">
+    <a class="logo" href="index.html" aria-label="Mis Gustos"><span class="logo-mark">🍰</span><span>Mis Gustos</span></a>
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav aria-label="Navegación principal">
+      <ul class="nav-links">
+        <li><a class="" href="index.html">Inicio</a></li><li><a class="" href="nosotros.html">Nosotros</a></li><li><a class="" href="servicios.html">Servicios</a></li><li><a class="active" href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+<main>
+<section class="page-hero" id="contacto">
+  <div class="container"><span class="eyebrow">Contacto</span><h1>Hablemos de tu próximo pedido.</h1><p>Dejanos tu consulta o elegí directamente uno de nuestros canales de contacto.</p></div>
+</section>
+
+<section class="section">
+  <div class="container form-layout">
+    <div class="card form-card" id="formulario">
+      <span class="eyebrow">Formulario</span><h2>Contanos qué necesitás</h2>
+      <p style="color:var(--muted);margin:12px 0 26px">Completá los datos y dejá los detalles de tu pedido.</p>
+      <form id="contact-form">
+        <div class="form-grid">
+          <div class="field"><label for="nombre">Nombre</label><input id="nombre" required placeholder="Tu nombre"></div>
+          <div class="field"><label for="email">Email</label><input id="email" type="email" required placeholder="tuemail@ejemplo.com"></div>
+          <div class="field"><label for="producto">Producto</label><select id="producto"><option value="">Elegí una opción</option><option>Torta</option><option>Brownie</option><option>Budín</option><option>Pedido personalizado</option></select></div>
+          <div class="field"><label for="fecha">Fecha estimada</label><input id="fecha" type="date"></div>
+          <div class="field full"><label for="mensaje">Mensaje</label><textarea id="mensaje" required placeholder="Contanos los detalles de tu pedido..."></textarea></div>
+        </div>
+        <button class="btn btn-primary" type="submit" style="margin-top:18px">Enviar consulta →</button>
+        <div class="status" id="form-status"></div>
+      </form>
+    </div>
+
+    <aside class="card contact-card">
+      <span class="eyebrow">Canales directos</span><h2>Encontranos acá</h2>
+      <div class="contact-list">
+        <!-- Reemplazá estos 3 enlaces por los datos reales de Mis Gustos -->
+        <a class="contact-item" href="https://wa.me/" target="_blank" rel="noopener"><span class="contact-icon">WA</span><span><strong>WhatsApp</strong><small>Hablar directamente</small></span></a>
+        <a class="contact-item" href="https://www.instagram.com/" target="_blank" rel="noopener"><span class="contact-icon">IG</span><span><strong>Instagram</strong><small>Ver fotos y novedades</small></span></a>
+        <a class="contact-item" href="https://www.facebook.com/" target="_blank" rel="noopener"><span class="contact-icon">FB</span><span><strong>Facebook</strong><small>Visitar la página</small></span></a>
+      </div>
+      <div style="margin-top:28px;padding:18px;border-radius:18px;background:var(--beige)"><strong style="display:block">Pedidos con anticipación</strong><span style="display:block;color:var(--muted);font-size:.85rem;margin-top:4px">La disponibilidad puede variar según la fecha y el producto elegido.</span></div>
+    </aside>
+  </div>
+</section>
+
+<section class="section soft" id="redes">
+  <div class="container">
+    <div class="center"><span class="eyebrow">Nuestras redes</span><h2>Elegí tu canal favorito</h2><p>En esta sección quedan centralizados WhatsApp, Instagram y Facebook.</p></div>
+    <div class="network-grid">
+      <!-- Reemplazá estos 3 enlaces por los datos reales de Mis Gustos -->
+      <a class="network-card" href="https://wa.me/" target="_blank" rel="noopener"><div class="network-icon">WA</div><div><strong>WhatsApp</strong><span>Hablar ahora</span></div></a>
+      <a class="network-card" href="https://www.instagram.com/" target="_blank" rel="noopener"><div class="network-icon">IG</div><div><strong>Instagram</strong><span>Ver publicaciones</span></div></a>
+      <a class="network-card" href="https://www.facebook.com/" target="_blank" rel="noopener"><div class="network-icon">FB</div><div><strong>Facebook</strong><span>Visitar página</span></div></a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container"><div class="quote"><p>“Pequeños gustos, grandes momentos.”</p><small>Mis Gustos · Repostería artesanal</small></div></div>
+</section>
+</main>
+
+
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h3>Mis Gustos</h3>
+        <p>Repostería artesanal con una estética cálida, sabores caseros y una atención pensada para cada pedido.</p>
+      </div>
+      <div>
+        <h3>Explorar</h3>
+        <div class="footer-links">
+          <a href="index.html">Inicio</a>
+          <a href="nosotros.html">Nosotros</a>
+          <a href="servicios.html#productos">Productos</a>
+          <a href="contacto.html#contacto">Contacto</a>
+        </div>
+      </div>
+      <div>
+        <h3>Contacto</h3>
+        <div class="footer-links">
+          <a href="contacto.html#redes">WhatsApp</a>
+          <a href="contacto.html#redes">Instagram</a>
+          <a href="contacto.html#redes">Facebook</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Mis Gustos.</span>
+      <span>Pequeños gustos, grandes momentos.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>
